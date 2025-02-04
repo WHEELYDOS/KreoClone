@@ -1,0 +1,232 @@
+    /* General Reset */
+.bodypg6 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(56,7,79);
+    background: radial-gradient(circle, rgba(56,7,79,1) 50%, rgba(26,0,34,1) 100%);
+    color: #FFFFFF;
+}
+
+.headerpg6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.logopg6 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.navpg6 a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.header-iconspg6 button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.mainpg6{
+    padding: 20px;
+    text-align: center;
+    /* background: rgb(56,56,56);
+    background: radial-gradient(circle, rgba(56,56,56,1) 0%, rgba(56,56,56,1) 7%, rgba(12,12,12,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#383838",endColorstr="#0c0c0c",GradientType=1); */
+    background-image: url('headphone\ bg.png');
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height:700px;
+    filter:drop-shadow(black 1rem 1rem 100px);
+}
+
+.explorepg6 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: -40px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -5px;
+}
+
+.productpg6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-imagepg6 img {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+
+    
+}
+
+.product-detailspg6 {
+    
+    max-width: 500px;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    margin-left: 580px;
+    
+}
+
+.product-detailspg6 h2 {
+    font-size: 18px;
+    color: #AAA6C3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.product-detailspg6 h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin: -10px 0;
+    font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.product-detailspg6 p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 15px 0;
+    font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    
+}
+
+.pricepg6 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px 0;
+    margin-top:30px;
+    color: #ffffff;
+}
+
+.buy-nowpg6 {
+    position: absolute;
+    top: 345px;
+    background-color: #8E44AD;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    height: px;
+    margin-left: 75px;
+}
+
+.buy-nowpg6:hover {
+    background-color: #732D91;
+}
+
+.blackpg6{
+    filter: invert(100%) sepia(34%) saturate(450%) hue-rotate(190deg) brightness(95%) contrast(90%);
+    height:45px
+}
+
+.imagespg6{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    gap: 20px;
+    
+}
+.subimagepg6
+{
+ height: 260px;
+ position: inherit;
+ margin-top: 510px;
+ 
+ filter:drop-shadow(black 1rem 1rem 90px);
+}
+
+.Mouse4pg6
+{
+    position: absolute;
+    left :10px;
+    height: 100px;
+    bottom:250px;
+     
+    filter:drop-shadow(black 1rem 1rem 90px);
+    rotate: 0deg;
+}
+
+#subimage2pg6
+{
+    height: 170px;
+    /* rotate:50deg; */
+    
+    margin-left: 10px;
+    filter:drop-shadow(black 1rem 1rem 90px);
+}
+#subimage1pg6
+{
+    height: 120px;
+    /* rotate:-70deg; */
+    margin-left: 50px;
+    margin-top: 532px;
+    filter:drop-shadow(black 1rem 1rem 90px);
+}
+#subimage3pg6
+{
+    height: 170px;
+    margin-left: -20px;
+    /* rotate:50deg; */
+    filter:brightness(1.2);
+    filter:drop-shadow(black 1rem 1rem 90px);
+}
+
+.cart-btn-mainpg6{
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+
+}
+
+/* .money25pg6{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px 0;
+    margin-top:30px;
+    color: #ffffff;
+} */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding HTML Slides with iFrame</title>
+    <link rel="stylesheet" href="slides.css">
+</head>
+<body class=" bodyslide">
+    <div class="sliderslide">
+        <div class="slidesslide">
+            <div class="slideslide" id="slide1slide">
+                <iframe src="desktop5.html" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+            <div class="slideslide" id="slide2">
+                <iframe src="desktop6.html" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+            <div class="slideslide" id="slide3">
+                <iframe src="desktop7.html" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+        <div class="buttonsslide">
+            <button class="buttonslide" class="buttonslide" id="prev">&#9664;</button>
+            <button class="buttonslide" id="next">&#9654;</button>
+        </div>
+    </div>
+
+    <script>
+        const slides = document.querySelector('.slidesslide');
+        const slideCount = document.querySelectorAll('.slideslide').length;
+        let currentIndex = 0;
+
+        document.getElementById('prev').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+            updateSlidePosition();
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % slideCount;
+            updateSlidePosition();
+        });
+
+        function updateSlidePosition() {
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+    </script>
+</body>
+</html>

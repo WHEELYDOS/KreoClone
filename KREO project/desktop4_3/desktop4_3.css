@@ -1,0 +1,255 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodypg4_3 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-image: url("4.3_backround_edit.jpg");
+    background-repeat: no-repeat;
+    background-size: 102%;
+    min-height: 1200px;
+    width: auto;
+    overflow: hidden; /* Hide scrollbars */
+    
+      
+  
+
+}
+
+/* Navigation */
+.headerpg4_3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    z-index: 1000;
+}
+
+.logopg4_3 {
+    width: 500px;
+    height: 100px;
+}
+
+.logopg4_3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navpg4_3 {
+    display: flex;
+    gap: 3rem;
+}
+
+.navpg4_3 a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navpg4_3 a:hover {
+    color: white;
+}
+
+.header-iconspg4_3 {
+    display: flex;
+    gap: 2rem;
+}
+
+.header-iconspg4_3 button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header-iconspg4_3 button:hover {
+    color: white;
+}
+
+/* Main Content */
+.main-contentpg4_3 {
+    padding: 6rem 4rem 4rem;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-gridpg4_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Product Info */
+.product-infopg4_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+      
+}
+
+.series-namepg4_3 {
+    margin-top: 6rem;
+    text-transform: uppercase;
+    color: #666;
+    font-size: 1.4rem;
+    letter-spacing: 0.15em;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+      
+}
+
+.product-titlepg4_3 {
+    margin-top: 1rem;
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.product-descriptionpg4_3 {
+    margin-top: 1rem;
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    width: 100%;
+    letter-spacing: 0.02em;
+    font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ratingpg4_3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.starspg4_3 {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.starpg4_3 {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+}
+
+.review-countpg4_3 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2rem;
+}
+
+.price-sectionpg4_3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pricepg4_3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.buy-nowpg4_3 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-nowpg4_3:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Product Images */
+.product-imagespg4_3 {
+    position: relative;
+    height: 100vh;
+   
+}
+
+.main-imagepg4_3 {
+    position: absolute;
+    left: 33%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.main-imagepg4_3 img {
+    width: 800px;
+    height: auto;
+   
+    filter:drop-shadow(black 0.5rem 0.5rem 200px);
+}
+
+.detail-imagespg4_3 {
+    position: absolute;
+    margin-top: 0px;
+    right: 2rem;
+    top: 3%;
+    
+}
+
+
+/* Text Content */
+.text-contentpg4_3 {
+    padding-right: 0rem;
+    width: 100%;
+}
+#img1pg4_3{
+    position: absolute;
+    height: 250px;
+    margin-bottom: 0px;
+    right: -50px;
+    top: -30px;
+    
+    filter:drop-shadow(black 2rem 2rem 60px);
+
+}
+#img2pg4_3{
+    position: absolute;
+    right: -39px;
+    height: 250px;
+    margin-top: 250px;
+    filter:drop-shadow(black 2rem 2rem 30px);
+}
+#img3pg4_3{
+    position: absolute;
+    top: 560px;
+    right: -59px;
+    height: 210px;
+
+    filter:drop-shadow(black 2rem 2rem 60px);
+    margin-top: -50px;
+    rotate: 27deg;
+
+}

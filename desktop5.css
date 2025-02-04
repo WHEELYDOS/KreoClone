@@ -1,0 +1,219 @@
+/* General Reset */
+.bodypg5 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(56,7,79);
+    background: radial-gradient(circle, rgba(56,7,79,1) 50%, rgba(26,0,34,1) 100%);
+    color: #FFFFFF;
+}
+
+.headerpg5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.logopg5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.navpg5 a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.header-iconspg5 button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.mainpg5 {
+    padding: 20px;
+    text-align: center;
+    /* background: rgb(56,56,56);
+    background: radial-gradient(circle, rgba(56,56,56,1) 0%, rgba(56,56,56,1) 7%, rgba(12,12,12,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#383838",endColorstr="#0c0c0c",GradientType=1); */
+    background-image: url('mouse\ bg.png');
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height:700px;
+    filter:drop-shadow(black 1rem 1rem 100px);
+}
+
+.explorepg5 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: -40px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -5px;
+}
+
+.productpg5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-imagepg5 img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-detailspg5 {
+    
+    max-width: 500px;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    margin-left: 580px;
+    
+}
+
+.product-detailspg5 h2 {
+    font-size: 18px;
+    color: #AAA6C3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.product-detailspg5 h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin: -10px 0;
+    font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.product-detailspg5 p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 15px 0;
+    font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+    
+}
+
+.pricepg5 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px 0;
+    margin-top:30px;
+    color: #ffffff;
+}
+
+.buy-nowpg5 {
+    position: absolute;
+    top: 430x;
+    background-color: #8E44AD;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    
+    margin-left: 75px;
+}
+
+.buy-nowpg5:hover {
+    background-color: #732D91;
+}
+
+.blackpg5{
+    filter: invert(100%) sepia(34%) saturate(450%) hue-rotate(190deg) brightness(95%) contrast(90%);
+    height:45px
+}
+
+.imagespg5{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    gap: 20px;
+    
+}
+.subimagepg5
+{
+ height: 220px;
+ position: inherit;
+ margin-top: 450px;
+ margin-left: -10px;
+ filter:drop-shadow(black 1rem 1rem 90px);
+}
+
+.Mouse4
+{
+    position: absolute;
+    left :10px;
+    height: 100px;
+    bottom:380px;
+    filter:drop-shadow(black 1rem 1rem 90px);
+    rotate: 8deg;
+}
+
+#subimage2pg5
+{
+    height: 250px;
+}
+#subimage1pg5
+{
+    height: 150px;
+    margin-top: 480px;
+}
+#subimage3pg5
+{
+    height: 200px;
+    margin-left: -40px;
+}
+
+.cart-btn-mainpg5{
+    position: absolute;
+    top: 435px;
+    right: 0px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+
+}
+
+.money25{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px 0;
+    margin-top:30px;
+    color: #ffffff;
+}
